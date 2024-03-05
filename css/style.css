@@ -1,6 +1,6 @@
 .container {
   max-width: 1425px;
-  padding: 0;
+  margin: 0 auto;
 }
 body {
   font-family: "poppins", sans-serif;
@@ -139,6 +139,11 @@ link:hover {
   bottom: 330px;
   left: 32%;
 }
+.nerroe{
+  position: absolute;
+  bottom: 330px;
+  left: 32%;
+}
 .finder {
   width: 220px;
   height: 220px;
@@ -237,7 +242,6 @@ link:hover {
   margin-top: 40px;
 }
 #new_me {
-  margin-bottom: 200px;
   background: #fafafa;
 }
 .fkfkdk {
@@ -736,19 +740,21 @@ link:hover {
   right: 696px;
 }
 #another {
-  margin-bottom: 200px;
-  background: black;
+  background: #30344e;
+  position: relative;
 }
 .worker h5 {
   font-size: 24px;
   font-weight: 600;
   color: #fd5f36;
+  padding-top: 80px;
 }
 .worker h3 {
   font-size: 48px;
   font-weight: 600;
   line-height: 62px;
   color: #ffffff;
+  padding-bottom: 220px;
 }
 .we {
   position: relative;
@@ -757,6 +763,7 @@ link:hover {
   background: #ffffff;
   margin-top: -75px;
   border-radius: 5px;
+  transition: 0.4s;
 }
 .we .try {
   width: 32px;
@@ -765,6 +772,7 @@ link:hover {
   position: absolute;
   top: 33px;
   left: 19px;
+  transition: 0.4s;
 }
 .we h4 {
   font-size: 20px;
@@ -772,12 +780,14 @@ link:hover {
   color: #30344e;
   margin-left: 65px;
   padding-top: 20px;
+  transition: 0.4s;
 }
 .we p {
   font-size: 16px;
   font-weight: 400;
   color: #5b5f77;
   margin-left: 65px;
+  transition: 0.4s;
 }
 .treee ul li a {
   font-size: 22px;
@@ -798,49 +808,47 @@ link:hover {
 .ddddd {
   display: flex;
 }
-.limon ul li {
-  list-style: none;
-}
-.limon ul li a {
-  font-size: 22;
-}
-.limon {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 .helloi-sd {
   position: relative;
-  
+}
+.helloi-sd:hover .we {
+  background: #52c5b6;
+}
+.helloi-sd:hover .we .try {
+  background: #ffffff;
+}
+.helloi-sd:hover .we h4 {
+  color: #ffffff;
+}
+.helloi-sd:hover .we p {
+  color: #ffffff;
 }
 .Li-1 {
   position: absolute;
   top: 0;
   left: 30px;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 1;
 }
 .Li-2 {
   position: absolute;
   top: 0;
   left: 30px;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 0;
 }
 .Li-3 {
   position: absolute;
   top: 0;
   left: 30px;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 0;
 }
 .Li-4 {
   position: absolute;
   top: 0;
   left: 30px;
-  transition: .4s;
+  transition: 0.4s;
   z-index: 0;
 }
 .helloi-sd:hover .Li-2 {
@@ -858,4 +866,107 @@ link:hover {
   position: absolute;
   top: -195px;
   left: 30px;
+}
+.jojio {
+  position: absolute;
+  top: 230px;
+}
+.tumio {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mutio {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+#tomato {
+  background: #ffffff;
+}
+.accordion-item {
+  width: 579px;
+  margin-bottom: 15px;
+}
+.geeara {
+  margin-top: 230px;
+  padding-bottom: 50px;
+}
+.mentor {
+  margin-top: 346px;
+  padding-left: 111px;
+}
+.accordion-button:not(.collapsed) {
+  background: #52c5b6;
+  border: none;
+  box-shadow: none;
+}
+.accordion-header {
+  border: 1px solid #52c5b7;
+}
+.accordion {
+  margin-top: 51px;
+}
+.text-23 h2{
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 62px;
+   color: #330344;
+   width: 589px;
+}
+#poteto{
+  background: #52C5B6;
+  position: relative;
+}
+.rrrr h3 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62px;
+  color: #ffffff;
+  width: 554px;
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+.rrrr a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 200%;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 5px;
+  background: #f44c4c;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 110px;
+}
+.shotgun h3{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #ffffff;
+}
+.shotgun p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.gerena{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.kkfkfkf {
+  position: absolute;
+  bottom: 140px;
+  right: 162px;
+}
+.romioo{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ero{
+  position: absolute;
+  top: 0;
+  right: 0;
 }
